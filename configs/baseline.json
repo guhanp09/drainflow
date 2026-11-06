@@ -1,0 +1,32 @@
+{
+  "length_m": 0.320,
+  "width_m": 0.220,
+  "wall_height_m": 0.025,
+  "minimum_thickness_m": 0.002,
+  "outer_corner_fillet_m": 0.002,
+  "drain_diameter_m": 0.008,
+  "spigot_outer_diameter_m": 0.012,
+  "spigot_length_m": 0.010,
+  "manufacturing_clearance_m": 0.003,
+  "channel_fit_clearance_m": 0.001,
+  "shoulder_width_m": 0.005,
+  "minimum_freeboard_m": 0.003,
+  "discharge_coefficient": 0.62,
+  "reference_head_m": 0.005,
+  "gravity_m_s2": 9.80665,
+  "retention_indifference_ml": 1.0,
+  "grid": [161, 111],
+  "tilts_deg": [[0, 0], [1, 0], [-1, 0], [0, 2], [0, -2]],
+  "designs": {
+    "flat": {"longitudinal_slope": 0.0, "transverse_slope": 0.0, "channel_width_m": 0.018, "channel_depth_m": 0.0, "drain_x_m": 0.010, "complexity": 1},
+    "single_slope": {"longitudinal_slope": 0.020, "transverse_slope": 0.0, "channel_width_m": 0.018, "channel_depth_m": 0.0, "drain_x_m": 0.010, "complexity": 2},
+    "dual_slope": {"longitudinal_slope": 0.025, "transverse_slope": 0.050, "channel_width_m": 0.014, "channel_depth_m": 0.001, "drain_x_m": 0.010, "complexity": 3}
+  },
+  "sweep": {
+    "longitudinal_slope": [0.020, 0.030, 0.040],
+    "transverse_slope": [0.040, 0.050, 0.060],
+    "channel_width_m": [0.010, 0.014, 0.018],
+    "channel_depth_m": [0.001, 0.002],
+    "drain_x_m": [0.010, 0.014, 0.018]
+  }
+}

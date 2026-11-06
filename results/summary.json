@@ -1,0 +1,212 @@
+{
+  "config": {
+    "length_m": 0.32,
+    "width_m": 0.22,
+    "wall_height_m": 0.025,
+    "minimum_thickness_m": 0.002,
+    "outer_corner_fillet_m": 0.002,
+    "drain_diameter_m": 0.008,
+    "spigot_outer_diameter_m": 0.012,
+    "spigot_length_m": 0.01,
+    "manufacturing_clearance_m": 0.003,
+    "channel_fit_clearance_m": 0.001,
+    "shoulder_width_m": 0.005,
+    "minimum_freeboard_m": 0.003,
+    "discharge_coefficient": 0.62,
+    "reference_head_m": 0.005,
+    "gravity_m_s2": 9.80665,
+    "retention_indifference_ml": 1.0,
+    "grid": [
+      161,
+      111
+    ],
+    "tilts_deg": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        -2
+      ]
+    ],
+    "designs": {
+      "flat": {
+        "longitudinal_slope": 0.0,
+        "transverse_slope": 0.0,
+        "channel_width_m": 0.018,
+        "channel_depth_m": 0.0,
+        "drain_x_m": 0.01,
+        "complexity": 1
+      },
+      "single_slope": {
+        "longitudinal_slope": 0.02,
+        "transverse_slope": 0.0,
+        "channel_width_m": 0.018,
+        "channel_depth_m": 0.0,
+        "drain_x_m": 0.01,
+        "complexity": 2
+      },
+      "dual_slope": {
+        "longitudinal_slope": 0.025,
+        "transverse_slope": 0.05,
+        "channel_width_m": 0.014,
+        "channel_depth_m": 0.001,
+        "drain_x_m": 0.01,
+        "complexity": 3
+      }
+    },
+    "sweep": {
+      "longitudinal_slope": [
+        0.02,
+        0.03,
+        0.04
+      ],
+      "transverse_slope": [
+        0.04,
+        0.05,
+        0.06
+      ],
+      "channel_width_m": [
+        0.01,
+        0.014,
+        0.018
+      ],
+      "channel_depth_m": [
+        0.001,
+        0.002
+      ],
+      "drain_x_m": [
+        0.01,
+        0.014,
+        0.018
+      ]
+    }
+  },
+  "designs": {
+    "flat": {
+      "longitudinal_slope": 0.0,
+      "transverse_slope": 0.0,
+      "channel_width_m": 0.018,
+      "channel_depth_m": 0.0,
+      "drain_x_m": 0.01,
+      "complexity": 1
+    },
+    "single_slope": {
+      "longitudinal_slope": 0.02,
+      "transverse_slope": 0.0,
+      "channel_width_m": 0.018,
+      "channel_depth_m": 0.0,
+      "drain_x_m": 0.01,
+      "complexity": 2
+    },
+    "dual_slope": {
+      "longitudinal_slope": 0.02,
+      "transverse_slope": 0.04,
+      "channel_width_m": 0.018,
+      "channel_depth_m": 0.001,
+      "drain_x_m": 0.01,
+      "complexity": 3
+    }
+  },
+  "selected": {
+    "longitudinal_slope": 0.02,
+    "transverse_slope": 0.04,
+    "channel_width_m": 0.018,
+    "channel_depth_m": 0.001,
+    "drain_x_m": 0.01,
+    "complexity": 3
+  },
+  "worst_retention_ml": {
+    "flat": 179.7864560396535,
+    "single_slope": 13.940879023388064,
+    "dual_slope": 0.012025648786614758
+  },
+  "reduction_vs_flat_pct": 99.99331114865295,
+  "sweep_candidates": 162,
+  "refined_finalists": [
+    {
+      "longitudinal_slope": 0.02,
+      "transverse_slope": 0.04,
+      "channel_width_m": 0.018,
+      "channel_depth_m": 0.001,
+      "drain_x_m": 0.01,
+      "complexity": 3,
+      "worst_retention_ml": 0.012025648786614758,
+      "estimated_material_cm3": 204.22699323009974
+    },
+    {
+      "longitudinal_slope": 0.02,
+      "transverse_slope": 0.04,
+      "channel_width_m": 0.018,
+      "channel_depth_m": 0.001,
+      "drain_x_m": 0.014,
+      "complexity": 3,
+      "worst_retention_ml": 0.03469238936655319,
+      "estimated_material_cm3": 204.22699323009974
+    },
+    {
+      "longitudinal_slope": 0.02,
+      "transverse_slope": 0.04,
+      "channel_width_m": 0.018,
+      "channel_depth_m": 0.001,
+      "drain_x_m": 0.018,
+      "complexity": 3,
+      "worst_retention_ml": 0.07042403233194947,
+      "estimated_material_cm3": 204.22699323009974
+    },
+    {
+      "longitudinal_slope": 0.02,
+      "transverse_slope": 0.04,
+      "channel_width_m": 0.014,
+      "channel_depth_m": 0.001,
+      "drain_x_m": 0.01,
+      "complexity": 3,
+      "worst_retention_ml": 0.009353282389589256,
+      "estimated_material_cm3": 204.22699323009974
+    },
+    {
+      "longitudinal_slope": 0.02,
+      "transverse_slope": 0.04,
+      "channel_width_m": 0.014,
+      "channel_depth_m": 0.001,
+      "drain_x_m": 0.014,
+      "complexity": 3,
+      "worst_retention_ml": 0.027201009386581744,
+      "estimated_material_cm3": 204.22699323009974
+    }
+  ],
+  "grid_convergence": [
+    {
+      "nx": 81,
+      "ny": 55,
+      "worst_retention_ml": 0.015362143662681432
+    },
+    {
+      "nx": 161,
+      "ny": 111,
+      "worst_retention_ml": 0.012025648786614758
+    },
+    {
+      "nx": 321,
+      "ny": 221,
+      "worst_retention_ml": 0.012751546315413248
+    }
+  ],
+  "fine_grid_change_ml": 0.0007258975287984908,
+  "grid_screen_passed": true,
+  "retention_definition": "Geometric capacity after sufficient wetting and gravity drainage; excludes films and capillarity",
+  "physical_testing_performed": false
+}

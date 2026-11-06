@@ -1,0 +1,7 @@
+* text=auto
+*.FCStd binary
+*.png binary
+*.stl -diff
+*.step -diff
+cad/exports/** linguist-detectable=false
+results/** linguist-detectable=false

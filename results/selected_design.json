@@ -1,0 +1,8 @@
+{
+  "longitudinal_slope": 0.02,
+  "transverse_slope": 0.04,
+  "channel_width_m": 0.018,
+  "channel_depth_m": 0.001,
+  "drain_x_m": 0.01,
+  "complexity": 3
+}

@@ -1,0 +1,118 @@
+{
+  "design": {
+    "longitudinal_slope": 0.02,
+    "transverse_slope": 0.04,
+    "channel_width_m": 0.018,
+    "channel_depth_m": 0.001,
+    "drain_x_m": 0.01,
+    "complexity": 3
+  },
+  "config": {
+    "length_m": 0.32,
+    "width_m": 0.22,
+    "wall_height_m": 0.025,
+    "minimum_thickness_m": 0.002,
+    "outer_corner_fillet_m": 0.002,
+    "drain_diameter_m": 0.008,
+    "spigot_outer_diameter_m": 0.012,
+    "spigot_length_m": 0.01,
+    "manufacturing_clearance_m": 0.003,
+    "channel_fit_clearance_m": 0.001,
+    "shoulder_width_m": 0.005,
+    "minimum_freeboard_m": 0.003,
+    "discharge_coefficient": 0.62,
+    "reference_head_m": 0.005,
+    "gravity_m_s2": 9.80665,
+    "retention_indifference_ml": 1.0,
+    "grid": [
+      161,
+      111
+    ],
+    "tilts_deg": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        -2
+      ]
+    ],
+    "designs": {
+      "flat": {
+        "longitudinal_slope": 0.0,
+        "transverse_slope": 0.0,
+        "channel_width_m": 0.018,
+        "channel_depth_m": 0.0,
+        "drain_x_m": 0.01,
+        "complexity": 1
+      },
+      "single_slope": {
+        "longitudinal_slope": 0.02,
+        "transverse_slope": 0.0,
+        "channel_width_m": 0.018,
+        "channel_depth_m": 0.0,
+        "drain_x_m": 0.01,
+        "complexity": 2
+      },
+      "dual_slope": {
+        "longitudinal_slope": 0.025,
+        "transverse_slope": 0.05,
+        "channel_width_m": 0.014,
+        "channel_depth_m": 0.001,
+        "drain_x_m": 0.01,
+        "complexity": 3
+      }
+    },
+    "sweep": {
+      "longitudinal_slope": [
+        0.02,
+        0.03,
+        0.04
+      ],
+      "transverse_slope": [
+        0.04,
+        0.05,
+        0.06
+      ],
+      "channel_width_m": [
+        0.01,
+        0.014,
+        0.018
+      ],
+      "channel_depth_m": [
+        0.001,
+        0.002
+      ],
+      "drain_x_m": [
+        0.01,
+        0.014,
+        0.018
+      ]
+    }
+  },
+  "valid_solid": true,
+  "volume_m3": 0.00020413408889348718,
+  "estimated_material_m3": 0.00020422699323009973,
+  "maximum_floor_height_error_m": 4.336808689942018e-18,
+  "floor_samples": 32,
+  "minimum_normal_floor_thickness_m": 0.0019999999999999957,
+  "vertical_floor_thickness_m": 0.0020571825392998065,
+  "step_reimport_valid": true,
+  "stl_x_extent_m": 0.3239999969955534,
+  "freecad_version": "0.20.2",
+  "editable_length_recompute": true,
+  "native_reopen_valid": true
+}

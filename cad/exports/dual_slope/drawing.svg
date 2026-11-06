@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+<rect width="900" height="760" fill="white"/>
+<style>text{font-family:Arial;fill:#183447} .line{stroke:#183447;fill:none;stroke-width:2}</style>
+<text x="35" y="35" font-size="24">DrainFlow — dual_slope</text>
+<text x="35" y="60" font-size="14">Dimensions mm · inner floor 320×220 · outer corner fillet R2.0</text>
+<rect x="46" y="106" width="648.0" height="448.0" rx="4" class="line"/>
+<rect x="50" y="110" width="640.0" height="440.0" class="line"/>
+<circle cx="70.0" cy="330.0" r="8.0" class="line"/>
+<line x1="50" y1="312.0" x2="690.0" y2="312.0" class="line"/><line x1="50" y1="348.0" x2="690.0" y2="348.0" class="line"/>
+<text x="705" y="200">Wall 2.0</text>
+<text x="705" y="225">Height 25</text>
+<text x="50" y="580">Drain Ø8; center x=10.0, y=110.0; spigot OD 12</text>
+<line x1="50" y1="620" x2="690.0" y2="620" class="line"/>
+<line x1="50" y1="670" x2="690.0" y2="657.2" class="line"/>
+<text x="50" y="705">Center section: long slope 0.020; transverse slope 0.040</text>
+<text x="50" y="730">Channel 18.0 wide; recess 1.0; shoulder ramp 5.0; draft not modeled</text>
+</svg>
